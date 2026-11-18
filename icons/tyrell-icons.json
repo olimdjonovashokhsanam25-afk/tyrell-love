@@ -1,0 +1,51 @@
+{
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "./deepwork.jpg"
+    },
+    "_folder_open": {
+      "iconPath": "./enjoy.jpg"
+    },
+    "_file": {
+      "iconPath": "./cute.jpg"
+    },
+    "_ts": {
+      "iconPath": "./beautifully.jpg"
+    },
+    "_js": {
+      "iconPath": "./happy.jpg"
+    },
+    "_json": {
+      "iconPath": "./break.jpg"
+    },
+    "_html": {
+      "iconPath": "./sleepy.jpg"
+    },
+    "_css": {
+      "iconPath": "./sooslepy.jpg"
+    }
+  },
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_folder",
+  "rootFolderExpanded": "_folder_open",
+  "file": "_file",
+  "fileExtensions": {
+    "ts": "_ts",
+    "tsx": "_ts",
+    "js": "_js",
+    "jsx": "_js",
+    "json": "_json",
+    "html": "_html",
+    "css": "_css"
+  },
+  "languageIds": {
+    "typescript": "_ts",
+    "javascript": "_js",
+    "json": "_json",
+    "html": "_html",
+    "css": "_css",
+    "py": "_py",
+    "cpp": "_cpp"
+  }
+}

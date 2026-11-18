@@ -1,0 +1,41 @@
+{
+  "name": "tyrell-love",
+  "publisher": "shohsanam",
+  "displayName": "Tyrell Love",
+  "description": "Custom dark cybernetic wallpaper and retro file icons",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "tyrell-love.applyWallpaper",
+        "title": "Tyrell Love: Apply Wallpaper"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "tyrell-love-icons",
+        "label": "Tyrell Love Retro Icons",
+        "path": "./icons/tyrell-icons.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/node": "20.x",
+    "typescript": "^5.6.2"
+  }
+}
